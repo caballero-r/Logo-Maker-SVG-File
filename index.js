@@ -58,23 +58,11 @@ inquirer
 	.then((answers) => {
         let svg;
         if (answers.shape === 'Circle') {
-            svg = new Circle(
-                'text',
-                'shape color',
-                'text color'
-            ).generateCircle(answers.text, answers.shapeColor, answers.textColor)
+            svg = new Circle(answers.text, answers.shapeColor, answers.textColor).generateCircle()
         } else if (answers.shape === 'Triangle') {
-            svg = new Triangle(
-                'text',
-                'shape color',
-                'text color'
-            ).generateTriangle(answers.text, answers.shapeColor, answers.textColor)
+            svg = new Triangle(answers.text, answers.shapeColor, answers.textColor).generateTriangle()
         } else if (answers.shape === 'Square') {
-            svg = new Square(
-                'text',
-                'shape color',
-                'text color'
-            ).generateSquare(answers.text, answers.shapeColor, answers.textColor)
+            svg = new Square(answers.text, answers.shapeColor, answers.textColor).generateSquare()
         }
         return svg;
 	})
