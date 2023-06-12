@@ -13,8 +13,8 @@
   This project was created without a starter code to generate a SVG based on the user's answers to the prompted inquirer questions.
 
   - Demo
-  <!-- ![Preview of Demo](utils/images/Demo_preview.png)
-    https://drive.google.com/file/d/1lQ0bqvfAZleqwsHJtrrqvoQoDPC4c9_x/view -->
+  ![Preview of Demo](utils/images/Demo_preview.png)
+    https://drive.google.com/file/d/1sKxoXZWQCjcUDBchqeNtMk-zp7XjXQG4/view
 
   ## License
   
